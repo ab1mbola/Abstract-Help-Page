@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
 
+  box-sizing: border-box;
+
   /* Colors */
   --blue: #4c5fd5;
   --lavender: #dadbf1;

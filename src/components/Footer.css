@@ -36,17 +36,19 @@ footer .main {
   max-width: 1200px;
   padding: 2rem;
   display: flex;
+  gap: 40px;
   margin: 0;
   /* flex-wrap: wrap; */
 }
 
 .main .container .main-item {
   /* padding: 0.5rem; */
+  /* gap: 200px; */
   min-width: 12.5rem;
 }
 
 .main .container .copyright {
-  margin: 150px 50px 0px;
+  margin: 150px 10px 0px;
   line-height: 2;
   /* position: absolute;
   top: ;
