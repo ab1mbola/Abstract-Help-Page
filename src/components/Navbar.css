@@ -1,0 +1,78 @@
+.navbar {
+  background-color: var(--black);
+  /* font-size: 1.5rem; */
+  color: var(--white);
+  padding: 20px 85px;
+  /* padding: 20px auto; */
+}
+
+.navbar nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+.navbar .navbar-left {
+  width: 280px;
+  height: auto;
+}
+
+.navbar .navbar-left .logo {
+  width: 32px;
+  height: auto;
+}
+
+.navbar .navbar-left .items {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 1.5rem;
+}
+
+.navbar .navbar-left .items li:hover {
+  cursor: pointer;
+  color: var(--lavender);
+}
+
+.navbar .navbar-left .items li:last-child:hover {
+  cursor: pointer;
+  color: var(--white);
+  text-decoration: underline;
+}
+
+.navbar .navbar-right {
+  display: flex;
+  /* justify-content: space-between;
+  align-items: center; */
+  gap: 20px;
+}
+
+.navbar .navbar-right button {
+  font-size: 1.5rem;
+}
+
+.navbar .navbar-right .submit {
+  background-color: var(--dark-grey);
+  color: var(--white);
+  border: 1px solid var(--white);
+  border-radius: 8px;
+  cursor: pointer;
+  outline: inherit;
+  padding: 10px 30px;
+}
+
+.navbar .navbar-right .sign-in {
+  background: var(--blue);
+  color: var(--white);
+  border: none;
+  border-radius: 8px;
+  padding: 10px 30px;
+}

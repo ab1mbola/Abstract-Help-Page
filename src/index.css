@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  /* Colors */
+  --blue: #4c5fd5;
+  --lavender: #dadbf1;
+  --white: #fff;
+  --black: #000000;
+  --dark-grey: hsl(210, 4%, 10%);
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,38 @@
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+footer {
+  width: 100%;
+  margin-top: auto !important;
+  background-color: var(--black);
+  color: var(--white);
+  line-height: 1.5;
+}
+
+footer a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.title {
+  color: var(--white);
+  font-size: 1.4rem;
+  padding-bottom: 1rem;
+}
+
+.main {
+  /* padding: 1.3rem 1.9rem; */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main-item {
+  padding: 1.3rem;
+  min-width: 12.5rem;
+}
