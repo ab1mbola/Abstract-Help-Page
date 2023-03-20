@@ -4,10 +4,11 @@ ul {
 }
 
 footer {
-  width: 100%;
-  margin-top: auto !important;
+  /* width: 100%; */
+  /* margin-top: auto !important; */
   background-color: var(--black);
   color: var(--white);
+  padding: 10px 40px 100px;
   line-height: 1.5;
 }
 
@@ -27,12 +28,12 @@ a:hover {
 }
 
 .main {
-  /* padding: 1.3rem 1.9rem; */
+  padding: 2rem;
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
 
 .main-item {
-  padding: 1.3rem;
+  /* padding: 0.5rem; */
   min-width: 12.5rem;
 }
